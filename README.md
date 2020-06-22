@@ -209,8 +209,8 @@ $(document).ready(function(){
 * study2.html
 > **중요!!!!**   
 > * 리스너 Vue 객체가 선언된 listener2.js 파일을 불러올 때에는 **defer** 라는 옵션을 줬음.   
-> * html 태그들이 만들어지기도 전에 Vue 객체가 렌더링이 되어서 그런지, defer 옵션을 주지 않으면, Vue 객체가 장착이 안 되는 것 같음. (자세한 이유는 모름.)   
-> * defer 옵션을 주기 싫다면, 리스너 Vue 객체가 선언된 listener2.js를 p 태그 밑으로 내려주면 됨. (주석 써있는 위치로 내리면 됨. defer는 빼고 ㅇㅇ)   
+> * html 태그들이 만들어지기도 전에 Vue 객체가 렌더링이 되어서 그런지, defer 옵션을 주지 않으면, Vue 객체가 장착이 안 되는 것 같음.   
+> * defer 옵션을 주기 싫다면, 리스너 Vue 객체가 선언된 listener2.js를 p 태그 밑으로 내려주면 됨.   
 ```
 <!DOCTYPE html>
 <html>
