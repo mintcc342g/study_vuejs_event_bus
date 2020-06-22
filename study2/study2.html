@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script><!-- # CDN 방식으로 vue.js를 가져옴. -->
+<script type="text/javascript" src="study2_2/eventBus.js"></script><!-- # 이벤트 버스 객체 선언한 파일 -->
+<script type="text/javascript" src="eventSender.js"></script><!-- # 이벤트 보내는 곳 작성한 파일 -->
+<script type="text/javascript" src="study2_1/listener1.js"></script><!-- # 이벤트 받는 곳 파일1 -->
+</head>
+<body>
+  <!-- # 얘를 누르면 데이터를 보냄! -->
+  <button id="hello-btn" greeting-data="Hello!">안녕?</button>
+
+  <br><br><br>
+
+  <!-- # 받은 데이터를 나타내는 쪽 -->
+  <p class="receive">Foreigner: "{{receivedData}}"</p>
+<script type="text/javascript" src="study2_2/study2_3/listener2.js"></script><!-- # 이벤트 받는 곳 파일2 -->
+</body>
+</html>
