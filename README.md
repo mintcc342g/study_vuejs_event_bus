@@ -151,7 +151,7 @@ $(document).ready(function(){
 * study_vuejs_event_bus/study2/
     * 2.4. 예제까지 포함
 ```
-임의의 폴더
+project_root
   ├── eventBus.js
   ├── listener1.js
   ├── listener2.js
@@ -208,9 +208,9 @@ $(document).ready(function(){
 
 * study2.html
 > **중요!!!!**   
-> 리스너 Vue 객체가 선언된 listener2.js 파일을 불러올 때에는 **defer** 라는 옵션을 줬음.   
-> html 태그들이 만들어지기도 전에 Vue 객체가 렌더링이 되어서 그런지, defer 옵션을 주지 않으면, Vue 객체가 장착이 안 되는 것 같음. (자세한 이유는 모름.)   
-> defer 옵션을 주기 싫다면, 리스너 Vue 객체가 선언된 listener2.js를 p 태그 밑으로 내려주면 됨. (주석 써있는 위치로 내리면 됨. defer는 빼고 ㅇㅇ)   
+> * 리스너 Vue 객체가 선언된 listener2.js 파일을 불러올 때에는 **defer** 라는 옵션을 줬음.   
+> * html 태그들이 만들어지기도 전에 Vue 객체가 렌더링이 되어서 그런지, defer 옵션을 주지 않으면, Vue 객체가 장착이 안 되는 것 같음. (자세한 이유는 모름.)   
+> * defer 옵션을 주기 싫다면, 리스너 Vue 객체가 선언된 listener2.js를 p 태그 밑으로 내려주면 됨. (주석 써있는 위치로 내리면 됨. defer는 빼고 ㅇㅇ)   
 ```
 <!DOCTYPE html>
 <html>
@@ -237,7 +237,7 @@ $(document).ready(function(){
 
 * 파일 구조를 바꿔도 당연히 잘 작동됨.
 ```
-임의의 폴더
+project_root
   ├── study1
   │   └── study1.html
   └── study2
